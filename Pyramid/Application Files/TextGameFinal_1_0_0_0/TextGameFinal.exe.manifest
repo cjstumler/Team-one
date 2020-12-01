@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TextGameFinal.exe" version="1.0.0.0" publicKeyToken="597d204381d6deab" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TextGameFinal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TextGameFinal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextGameFinal.exe" size="1030616">
+      <assemblyIdentity name="TextGameFinal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>U6zf6He2D08NvqMpMriwDdANhQoTEUroe5reqfXSQ3U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TextGameFinal.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-VASVT0T\Alec" issuerKeyHash="8875edb3f1f70d0166009f01220496cc016fbf22" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5Mp3UlKbda56OIoz5s1SNZuudNU4gBFoE7TNT21BiHI=</DigestValue></Reference></SignedInfo><SignatureValue>f8D5rB9Kt9EbWoQNIfi/9GPAGbNlrz7pbTvO3rJ/HMEE6UYbpUAWZGLrb7ufV3zOndFoACz642TT7Vy1HxmD36z2f52G86c2OdrAX428RXJESOx9rNLijbhDKeBMt/tmvrExkLBInfwyfnDXaI85cSnxO4H48a1vrrxwpv5IugE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sIaJhmFORI6rInDCidSTMv25czRngMssGTRDTH3P5IzeMZvVEdmvO98EKza9baZVCWCw1n0w67PAfWNbm1SiD6qf5GmOtcj6I3KAh3Aj0GJzfoPdKZO+voKOnvP6cKSNYJH7w7t7pk0TFnejEvnklUK6pfuiSWXHk2jl3qkhEPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7288416d4fcdb41368118038d574ae9b3552cde6338a387aae759b525277cae4" Description="" Url=""><as:assemblyIdentity name="TextGameFinal.exe" version="1.0.0.0" publicKeyToken="597d204381d6deab" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VASVT0T\Alec</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hHU8k5X63m5OmmF8FZhrlbvhrP5mGl1N6WBboNEwZ74=</DigestValue></Reference></SignedInfo><SignatureValue>EocEgH+6P2VlcSmxDrq+wNvwAM3qODeaIknyd4Z0jn9U2FUSSimupUdNhGAFHKs8Gw6thQKPjbAJHZc3rsm4oOqxtL6xXnYQqb188p86EhpxIFu0GeBG3A4l+i5LS6v+M2P2YWU74RWB9Mmsyg4Yc3rkBMpafd0W6NOY73KyxlM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sIaJhmFORI6rInDCidSTMv25czRngMssGTRDTH3P5IzeMZvVEdmvO98EKza9baZVCWCw1n0w67PAfWNbm1SiD6qf5GmOtcj6I3KAh3Aj0GJzfoPdKZO+voKOnvP6cKSNYJH7w7t7pk0TFnejEvnklUK6pfuiSWXHk2jl3qkhEPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQErcIYgocC7JJkOJhpKrbvTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFYAQQBTAFYAVAAwAFQAXABBAGwAZQBjMB4XDTIwMTIwMTIwNDg1M1oXDTIxMTIwMjAyNDg1M1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBWAEEAUwBWAFQAMABUAFwAQQBsAGUAYzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsIaJhmFORI6rInDCidSTMv25czRngMssGTRDTH3P5IzeMZvVEdmvO98EKza9baZVCWCw1n0w67PAfWNbm1SiD6qf5GmOtcj6I3KAh3Aj0GJzfoPdKZO+voKOnvP6cKSNYJH7w7t7pk0TFnejEvnklUK6pfuiSWXHk2jl3qkhEPUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBxVpfshmdWRl20hJpNm2P5UBywGXjk1CD2nN/6BJNFsHii+QCqE9Yd/0Fu1r0GaFypd9bMth9oD8qFvVeIICJ9OV06KJ4aUHvDZdVG6TRuMHjEX7VDyOwXMiSmF2RJ7aGl8VpJeTtx9LCCuPAuToVFHbTNYZnVH2RiK3SNMNL/5Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
